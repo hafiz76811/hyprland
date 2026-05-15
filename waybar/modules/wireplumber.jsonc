@@ -1,0 +1,10 @@
+{
+    "wireplumber": {
+        "format": "{icon} {volume}%",
+        "format-muted": " Muted",
+        "format-source": " {volume}%",
+        "format-source-muted": " Muted",
+        "format-icons": ["", "", ""],
+	"on-click": "pavucontrol"
+    }
+}

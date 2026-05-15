@@ -1,0 +1,12 @@
+{
+    "network": {
+        "interface": "wlp2s0", // (Optional) To force the use of this interface
+        "format-wifi": "  Connected",
+        "format-disabled": "󰀝 Disabled",
+        "format-ethernet": " {ipaddr}/{cidr}",
+        "format-disconnected": "  Disconnected",
+	"tooltip-format": "Turn on/off network",
+        "tooltip-format-wifi": "{essid} ({signalStrength}%)",
+	"on-click": "~/.config/waybar/scripts/network.sh"
+    }
+}

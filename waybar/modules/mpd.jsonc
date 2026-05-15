@@ -1,0 +1,15 @@
+{
+    "mpd": {
+        "format": "{stateIcon} Music",
+        "format-disconnected": "󰀦 Disconnected",
+	"format-stopped": " Music",
+        "interval": 5,
+        "state-icons": {
+            "paused": "",
+            "playing": ""
+        },
+        "tooltip-format": "{artist} - ({elapsedTime:%M:%S}/{totalTime:%M:%S})\n{title}",
+	"on-click-right": "mpc stop",
+	"on-click": "~/.config/waybar/scripts/player.sh"
+    }
+}

@@ -1,0 +1,15 @@
+{
+  "custom/mybattery": {
+  	"exec": "../scripts/battery.sh",
+  	"interval": 2,
+  	"tooltip": true,
+  	"return-type": "json",
+  	
+  	"format": "{icon} {}%",
+  	"format-full": "F {}%",
+  	"format-warning": "W {}%",
+  	"format-critical": "C {}%",
+  	"format-alt": "A {}%",
+  	"format-icons": ["1/5", "2/5", "3/5", "4/5", "5/5"]
+  }
+}

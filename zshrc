@@ -1,0 +1,111 @@
+############################
+# WELCOME
+############################
+
+# Logos from fastfetch
+fastfetch
+
+############################
+# BASIC SETTINGS
+############################
+
+# Path
+export PATH="$HOME/bin:/usr/local/bin:$PATH"
+
+############################
+# HISTORY CONFIGURATION
+############################
+
+HISTFILE="$HOME/.zsh_history"
+HISTSIZE=10000
+SAVEHIST=10000
+
+setopt APPEND_HISTORY          # history tidak tertimpa
+setopt HIST_IGNORE_DUPS        # hilangkan duplikat
+setopt HIST_IGNORE_SPACE       # command diawali spasi tidak disimpan
+setopt HIST_REDUCE_BLANKS      # hapus spasi berlebih
+setopt INC_APPEND_HISTORY      # simpan history langsung
+
+############################
+# COMPLETION SYSTEM
+############################
+
+autoload -Uz compinit
+compinit
+
+# Completion behavior
+zstyle ':completion:*' menu select
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
+zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
+zstyle ':completion:*' verbose yes
+
+############################
+# PROMPT
+############################
+
+autoload -Uz colors
+colors
+
+export colort="#000000"
+export foreground="#42a5f5"
+export background="#90caf9"
+
+PROMPT=$'\n'"%K{$foreground} %F{$colort}%n@%m %K{$background}%F{$foreground} %F{$colort}%1~ %k%F{$background}%f "
+
+############################
+# EDITOR
+############################
+
+export EDITOR="nvim"
+export VISUAL="nvim"
+
+############################
+# KEY BINDINGS
+############################
+
+bindkey -e  # emacs mode
+
+############################
+# ALIASES
+############################
+
+alias ls='ls --color=auto'
+alias ll='ls -lah'
+alias la='ls -A'
+alias l='ls -CF'
+alias lr='tree'
+
+alias gt='$HOME/.git'
+alias gb='git branch'
+alias gs='git status'
+alias ga='git add'
+alias gc="git commit -m"
+alias gp='git push'
+alias gl='git log --graph --decorate'
+
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+
+alias dir='dir --color=auto'
+alias vdir='vdir --color=auto'
+
+alias ..='cd ..'
+alias ...='cd ../..'
+
+alias rm='trash-put'
+alias fastfetch='fastfetch --config none'
+
+############################
+# SAFETY & QUALITY OF LIFE
+############################
+
+setopt CORRECT                 # koreksi typo command
+setopt NO_BEEP                 # matikan beep
+
+############################
+# PERFORMANCE
+############################
+
+unsetopt PROMPT_SP             # prompt lebih cepat
+

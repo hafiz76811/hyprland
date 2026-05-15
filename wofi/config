@@ -1,0 +1,25 @@
+###############
+### GENERAL ###
+###############
+location=center
+width=400
+height=300
+# lines=4
+
+prompt=Search...
+mode=drun
+
+columns=1
+allow_images=true
+image_size=28
+
+###################
+### KEYBINDINGS ###
+###################
+key_left=Alt-h
+key_down=Alt-j
+key_up=Alt-k
+key_right=Alt-l
+
+key_exit=Escape
+key_expand=Tab

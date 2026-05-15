@@ -1,0 +1,105 @@
+@import url("modules/color.css");
+
+* {
+    font-family: "JetBrainsMono Nerd Font", FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+}
+
+window#waybar {
+	background-color: transparent;
+}
+
+.modules-left,
+.modules-right,
+.modules-center {
+	background-color: @background;
+	border-radius: 15px;
+}
+
+#workspaces {
+	border-radius: 15px;
+	font-weight: 900;
+}
+
+#custom-menu,
+#workspaces button {
+	padding: 0 5px;
+	color: @colorw;
+}
+
+#custom-menu,
+#workspaces button.active {
+	background-color: @style;
+	border-radius: 15px;
+}
+
+#workspaces button.empty {
+	color: @colord;
+}
+
+#workspaces button.urgent {
+	background-color: @colorr;
+	border-radius: 15px;
+}
+
+#submap {
+	color: @colorr;
+	padding: 0 20px 0 10px;
+}
+
+
+#clock,
+#custom-mybattery,
+#cpu,
+#custom-cava,
+#network,
+#wireplumber,
+#custom-media,
+#tray,
+#bluetooth,
+#mpd {
+    padding: 0 10px;
+    color: @color;
+}
+
+
+#custom-media { min-width: 100px; }
+
+#custom-menu {
+	padding-right: 16px;
+	padding-left: 12px;
+}
+
+#mpd, #wireplumber {
+	margin-left: 8px;
+}
+
+#custom-cava, #network {
+	margin-right: 8px;
+}
+
+
+/* modules - color */
+#network.wifi { color: @colorg; }
+#network.disconnected { color: @colory; }
+
+#custom-mybattery.warning { color: @colory; }
+#custom-mybattery.critical { color: @colorr; }
+#custom-mybattery.charging { color: @colorg; }
+#custom-mybattery.full { color: @colorb; }
+
+#custom-cava.active { color: @colorb; }
+
+#bluetooth.on { color: @colory; }
+#bluetooth.connected { color: @colorb; }
+
+#mpd.paused { color: @colory; }
+#mpd.playing { color: @colorg; }
+
+#wireplumber.muted { color: @colory; }
+
+#clock { color: @colorb; }
+
+#custom-menu { background-color: @style; }
+
+#cpu { color: @colorg; }

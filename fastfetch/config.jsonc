@@ -1,0 +1,15 @@
+{
+	"logo": {
+		"type": "small",
+		"color": {
+			"1": "#42a5f5",
+			"2": "#90caf9"
+		},
+		"padding": {
+			"left": 1,
+			"top": 1
+		}
+	},
+	"logo": "arch_small",
+	"structure": "none"
+}

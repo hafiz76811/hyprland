@@ -1,0 +1,8 @@
+{
+    "custom/cava": {
+	"exec": "~/.config/waybar/scripts/cava.sh",
+	"interval": 2,
+	"tooltip": true,
+	"return-type": "json"
+    }
+}

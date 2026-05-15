@@ -1,0 +1,47 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 30,
+    // "width": 1280,
+    "spacing": 0,
+
+
+    "modules-left": [
+        "mpd",
+	"bluetooth",
+        "cpu",
+	"custom/cava",
+        "custom/media"
+    ],
+    "modules-center": [
+        "hyprland/workspaces",
+        "hyprland/submap",
+        "custom/menu",
+        "tray"
+    ],
+    "modules-right": [
+        "wireplumber",
+	"custom/mybattery",
+        "clock",
+        "network"
+    ],
+
+
+    "include": [
+		"modules/mpd.jsonc",
+		"modules/bluetooth.jsonc",
+		"modules/cpu.jsonc",
+		"modules/custom_cava.jsonc",
+		"modules/custom_media.jsonc",
+
+		"modules/hyprland_workspaces.jsonc",
+		"modules/hyprland_submap.jsonc",
+		"modules/custom_menu.jsonc",
+		"modules/tray.jsonc",
+
+		"modules/wireplumber.jsonc",
+		"modules/custom_battery.jsonc",
+		"modules/clock.jsonc",
+		"modules/network.jsonc"
+    ]
+}

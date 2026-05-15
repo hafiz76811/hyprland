@@ -1,0 +1,64 @@
+@define-color colorb #62a0ea;
+@define-color colord #5e5c64;
+
+* {
+	font-family: 'JetBrainsMono Nerd Font', FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+	font-size: 13px;
+}
+
+window {
+	border-radius: 10px;
+	border: 3px solid @colorb;
+	background-color: @colord;
+}
+
+#outer-box {
+	margin: 40px;
+}
+
+#input {
+	padding: 7px;
+	margin-bottom: 40px;
+
+	border-radius: 8px;
+	border: 2px solid @colorb;
+
+	color: white;
+	background-color: @colord;
+
+	font-size: 14px;
+	font-weight: 600;
+}
+
+#scroll {
+	color: white;
+}
+
+#img {
+	margin: 0 10px;
+}
+
+#text {
+	color: white;
+}
+
+#text:selected {
+	color: black;
+}
+
+#entry:selected {
+	border-radius: 25px;
+	padding: 10px;
+	background-color: @colorb;
+}
+
+#entry {
+	border-radius: 25px;
+	padding: 10px;
+}
+
+#expander-box {
+	background-color: @colord;
+	border-radius: 10px;
+	margin-top: 10px;
+}

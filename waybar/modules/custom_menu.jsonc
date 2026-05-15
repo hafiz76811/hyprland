@@ -1,0 +1,8 @@
+{
+    "custom/menu": {
+        "format" : "",
+	"on-click": "wlogout --buttons-per-row 4",
+	"tooltip": true,
+	"tooltip-format": "Power menu"
+    }
+}
