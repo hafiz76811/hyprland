@@ -75,7 +75,7 @@ alias la='ls -A'
 alias l='ls -CF'
 alias lr='tree'
 
-alias gt='~/hyprland/git/git.sh'
+alias gt='~/.config/git/git.sh'
 alias gb='git branch'
 alias gs='git status'
 alias ga='git add'
