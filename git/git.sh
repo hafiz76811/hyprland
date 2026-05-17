@@ -15,11 +15,11 @@ fi
 
 read -p "git commit : " commit
 if [[ $commit != "" ]]; then
-  git commit -m $commit
+  git commit -m "$commit"
   echo ""
 fi
 
-read -p "git push [Y/n] " push
+read -p "git push? [Y/n] " push
 if [[ $push = "y" || $push = "Y" ]]; then
   git push -u origin main
 fi
