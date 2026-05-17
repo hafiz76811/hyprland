@@ -1,5 +1,5 @@
 {
-  "custom/mybattery": {
+  "custom/battery": {
   	"exec": "~/.config/waybar/scripts/battery.sh",
   	"interval": 2,
   	"tooltip": true,

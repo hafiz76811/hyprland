@@ -21,7 +21,7 @@
     ],
     "modules-right": [
         "wireplumber",
-	"custom/mybattery",
+	"custom/battery",
         "clock",
         "network"
     ],
