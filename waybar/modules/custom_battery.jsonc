@@ -6,10 +6,12 @@
   	"return-type": "json",
 
   	"format": "{icon} {text}%",
-  	"format-full": " {text}%",
-  	"format-warning": "󰂎 {text}%",
-  	"format-critical": "󰂃 {text}%",
   	"format-alt": "Batt: {text}%",
-  	"format-icons": ["", "", "", "", ""]
+  	"format-icons":
+		"full": "full",
+		"charging": "char",
+		"warning": "warn",
+		"critical": "crit",
+		"default": ["", "", "", "", ""]
   }
 }

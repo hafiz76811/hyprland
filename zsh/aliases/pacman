@@ -1,0 +1,4 @@
+alias i='pacman -Sy'
+alias r='pacman -Rns'
+alias s='pacman -Ss'
+alias l='pacman -Qs'

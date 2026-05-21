@@ -75,14 +75,6 @@ alias la='ls -A'
 alias l='ls -CF'
 alias lr='tree'
 
-alias gt='~/.config/git/git.sh'
-alias gb='git branch'
-alias gs='git status'
-alias ga='git add'
-alias gc="git commit -m"
-alias gp='git push'
-alias gl='git log --graph --decorate'
-
 alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
@@ -109,3 +101,9 @@ setopt NO_BEEP                 # matikan beep
 
 unsetopt PROMPT_SP             # prompt lebih cepat
 
+############################
+# SOURCE
+############################
+
+source aliases/git
+source aliases/pacman
