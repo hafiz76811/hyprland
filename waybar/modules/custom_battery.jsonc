@@ -8,10 +8,10 @@
   	"format": "{icon} {text}%",
   	"format-alt": "Batt: {text}%",
   	"format-icons":
-		"full": "full",
-		"charging": "char",
-		"warning": "warn",
-		"critical": "crit",
+		"full": "",
+		"charging": "",
+		"warning": "󰂃",
+		"critical": "",
 		"default": ["", "", "", "", ""]
   }
 }
