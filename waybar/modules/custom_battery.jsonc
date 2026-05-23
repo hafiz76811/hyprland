@@ -7,11 +7,12 @@
 
   	"format": "{icon} {text}%",
   	"format-alt": "Batt: {text}%",
-  	"format-icons":
+  	"format-icons": {
 		"full": "",
 		"charging": "",
 		"warning": "󰂃",
 		"critical": "",
 		"default": ["", "", "", "", ""]
+	}
   }
 }
