@@ -3,11 +3,8 @@ reboot = [ "systemctl", "reboot" ]
 poweroff = [ "systemctl", "poweroff" ]
 
 [background]
-path = "/usr/share/background/wallpaper.jpg"
+path = "/usr/share/backgrounds/regreet.jpg"
 fit = "Cover"
 
 [GTK]
 apllication_prefer_dark_theme = true
-theme_name = "Adwaita-dark"
-icon_theme_name = "Adwaita-dark"
-cursor_theme_name = "Adwaita-dark"
