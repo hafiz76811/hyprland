@@ -105,5 +105,5 @@ unsetopt PROMPT_SP             # prompt lebih cepat
 # SOURCE
 ############################
 
-source aliases/git
-source aliases/pacman
+source ~/.config/zsh/git
+# .zcompdump .zlogout .zprofile .zshenv .zsh_history .zshrc

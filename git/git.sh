@@ -3,6 +3,10 @@
 status=$(git status &> /dev/null && true || false)
 if $status; then
   echo -e "git branch : $(git branch)\n"
+else
+  echo "error: not a git repository"
+  exit 1
+fi
 
 read -p "git add : " add
 if [[ $add != "" ]]; then
@@ -24,10 +28,5 @@ if [[ $push == "y" || $push == "Y" ]]; then
   git push -u origin main
 else
   echo "error: check your internet connection!"
-  exit 1
-fi
-
-else
-  echo "error: not a git repository"
   exit 1
 fi

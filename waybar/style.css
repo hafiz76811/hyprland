@@ -49,7 +49,7 @@ window#waybar {
 
 
 #clock,
-#custom-mybattery,
+#custom-battery,
 #cpu,
 #custom-cava,
 #network,
@@ -83,10 +83,10 @@ window#waybar {
 #network.wifi { color: @colorg; }
 #network.disconnected { color: @colory; }
 
-#custom-mybattery.warning { color: @colory; }
-#custom-mybattery.critical { color: @colorr; }
-#custom-mybattery.charging { color: @colorg; }
-#custom-mybattery.full { color: @colorb; }
+#custom-battery.warning { color: @colory; }
+#custom-battery.critical { color: @colorr; }
+#custom-battery.charging { color: @colorg; }
+#custom-battery.full { color: @colorb; }
 
 #custom-cava.active { color: @colorb; }
 

@@ -1,0 +1,47 @@
+font=Adwaita Sans
+background-color=#3d3846
+text-color=#ffffff
+
+# width=500
+# height=200
+
+outer-margin=0
+margin=10
+padding=10
+
+border-size=4
+border-color=#635b71
+border-radius=10
+
+progress-color=#33d17a
+icons=1
+icon-path=/usr/share/icons/Adwaita:/usr/share/icons/hicolor
+max-icon-size=65
+# icon-border-radius=10
+
+markup=1
+actions=0
+
+format=<b>%s</b>\n%b
+# hidden-format=<span foreground="#a6adc8">󰇚 %h hidden</span>
+
+max-visible=3
+max-history=10
+history=1
+sort=-time
+
+default-timeout=5000
+ignore-timeout=1
+
+output=eDP-1
+layer=top
+anchor=top-right
+
+[urgency=low]
+border-color=#635b71
+
+[urgency=normal]
+border-color=#84b4ee
+
+[urgency=critical]
+border-color=#ff6f6f

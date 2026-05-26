@@ -6,7 +6,7 @@
 	"format-off": "󰂲 Disabled", // an empty format will hide the module
 	"format-on": "󰂯 Enabled", // an empty format will hide the module
 	"format-connected": "󰂱 {device_alias}",
-	"format-connected-battery": "󰂱 {device_alias} {device_battery_percentage}",
+	"format-connected-battery": "󰂱 {device_alias} {device_battery_percentage}%",
 	"tooltip-format": "Turn on/off bluetooth",
 	"on-click": "~/.config/waybar/scripts/bluetooth.sh"
     }

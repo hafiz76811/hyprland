@@ -14,7 +14,7 @@
 
 {
     "label" : "suspend",
-    "action" : "loginctl lock-session && systemctl suspend",
+    "action" : "loginctl lock-session",
     "text" : "Suspend",
     "keybind" : "u"
 }
