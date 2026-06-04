@@ -1,0 +1,8 @@
+{
+  "fzf": { "branch": "master", "commit": "838ac7554bdbae2f457f2c4969e1b38f1c28c946" },
+  "fzf.vim": { "branch": "master", "commit": "356608e2ae5d9127e2c964885ea2b21ea7aea9ab" },
+  "lazy.nvim": { "branch": "main", "commit": "306a05526ada86a7b30af95c5cc81ffba93fef97" },
+  "nerdtree": { "branch": "master", "commit": "690d061b591525890f1471c6675bcb5bdc8cdff9" },
+  "tokyonight-vim": { "branch": "master", "commit": "4e82e0f0452a6ce8f387828ec71013015515035a" },
+  "vim-airline": { "branch": "master", "commit": "f02ddb633868d0b1e83f2612b5b25ef1ecd210db" }
+}
