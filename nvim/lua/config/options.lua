@@ -9,8 +9,8 @@ opt.cursorline = true
 opt.inccommand = "nosplit"
 
 opt.hlsearch = true
-opt.ignorecase = true
 opt.incsearch = true
+opt.ignorecase = true
 opt.smartcase = true
 opt.wrapscan = true
 
