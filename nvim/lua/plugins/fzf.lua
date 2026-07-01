@@ -3,6 +3,6 @@ return {
 	dependencies = { "junegunn/fzf" },
 	build = "./install --all",
 	config = function()
-		vim.keymap.set("n", "<C-s>", ":FZF<CR>", { silent = true })
+		vim.keymap.set("n", "<C-/>", ":FZF<CR>", { silent = true })
 	end,
 }

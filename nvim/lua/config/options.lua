@@ -1,21 +1,14 @@
-local opt = vim.opt
-
-vim.cmd("syntax on")
-
-opt.number = true
-opt.relativenumber = true
-
-opt.cursorline = true
-opt.inccommand = "nosplit"
-
-opt.hlsearch = true
-opt.incsearch = true
-opt.ignorecase = true
-opt.smartcase = true
-opt.wrapscan = true
-
-opt.tabstop = 2
-opt.shiftwidth = 2
-opt.expandtab = true
-
-opt.mouse = "a"
+vim.opt.number = true
+vim.opt.relativenumber = true
+vim.opt.cursorline = true
+vim.opt.tabstop = 2
+vim.opt.shiftwidth = 2
+vim.opt.expandtab = true
+vim.opt.smartindent = true
+vim.opt.wrap = true
+vim.opt.ignorecase = true
+vim.opt.smartcase = true
+vim.opt.termguicolors = true
+vim.opt.showmode = true
+vim.opt.clipboard = "unnamedplus"
+vim.cmd.syntax "enable"
