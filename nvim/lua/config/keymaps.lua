@@ -1,4 +1,5 @@
 vim.keymap.set('n', '<leader>w', ':w<CR>', { noremap = true, silent = true })
+vim.keymap.set('n', '<leader>wq', ':wq<CR>', { noremap = true, silent = true })
 -- vim.keymap.set('i', 'jk', '<Esc>', { noremap = true, silent = true })
 
 vim.keymap.set('n', '<S-Tab>', ':bprevious<CR>', { noremap = true, silent = true })
