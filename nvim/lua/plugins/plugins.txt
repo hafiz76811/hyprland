@@ -1,22 +1,4 @@
-# 1. Autocomplete
-
-Plugin utama:
-
-`hrsh7th/nvim-cmp`
-
-Biasanya dipasangkan dengan:
-
-* `cmp-buffer`
-* `cmp-path`
-* `cmp-nvim-lsp`
-* `LuaSnip`
-* `cmp_luasnip`
-
-Memberikan autocomplete seperti VS Code.
-
----
-
-# 2. Git Integration
+# 1. Git Integration
 
 Yang paling populer:
 
@@ -40,7 +22,7 @@ Juga bisa:
 
 ---
 
-# 3. Which Key
+# 2. Which Key
 
 Repository:
 
@@ -58,7 +40,7 @@ Sangat membantu mengingat keymap.
 
 ---
 
-# 4. Colorscheme
+# 3. Colorscheme
 
 Yang populer:
 
@@ -71,7 +53,7 @@ Yang populer:
 
 ---
 
-# 5. Notifications
+# 4. Notifications
 
 Pilihan:
 
@@ -81,20 +63,7 @@ Memberikan popup yang lebih menarik daripada pesan bawaan Neovim.
 
 ---
 
-# 6. UI
-
-`stevearc/dressing.nvim`
-
-Mempercantik:
-
-* input()
-* select()
-
-Dipakai banyak plugin lain.
-
----
-
-# 7. Better Syntax
+# 6. Better Syntax
 
 `folke/todo-comments.nvim`
 
@@ -110,7 +79,7 @@ BUG
 
 ---
 
-# 8. Terminal
+# 7. Terminal
 
 Pilihan:
 
@@ -126,7 +95,7 @@ atau keymap lain yang kamu tentukan.
 
 ---
 
-# 9. Session Manager
+# 8. Session Manager
 
 Pilihan:
 
@@ -138,7 +107,7 @@ semua buffer bisa kembali seperti sebelumnya.
 
 ---
 
-# 10. Trouble
+# 9. Trouble
 
 Repository:
 
@@ -155,7 +124,7 @@ dalam satu panel yang rapi.
 
 ---
 
-# 11. Mini.nvim
+# 10. Mini.nvim
 
 Repository:
 
@@ -172,77 +141,4 @@ Misalnya:
 * mini.files
 * mini.icons
 
-Banyak pengguna sekarang lebih memilih modul dari `mini.nvim` dibanding plugin yang berdiri sendiri karena ringan dan konsisten.
-
 ---
-
-# Kalau saya menyusun Neovim dari nol
-
-Saya biasanya memasang plugin dalam urutan berikut:
-
-### Tahap 1 (fondasi)
-
-* ✅ `lazy.nvim`
-* ✅ `tokyonight`
-* ✅ `lualine`
-* ✅ `treesitter`
-* ✅ `which-key`
-
----
-
-### Tahap 2 (navigasi)
-
-* ✅ `telescope`
-* ✅ `neo-tree`
-* ✅ `bufferline`
-
----
-
-### Tahap 3 (programming)
-
-* ✅ `mason`
-* ✅ `lspconfig`
-* ✅ `nvim-cmp`
-* ✅ `LuaSnip`
-
----
-
-### Tahap 4 (produktif)
-
-* ✅ `Comment.nvim`
-* ✅ `gitsigns`
-* ✅ `autopairs`
-* ✅ `indent-blankline`
-* ✅ `toggleterm`
-
----
-
-### Tahap 5 (pemanis)
-
-* ✅ `dashboard`
-* ✅ `notify`
-* ✅ `dressing`
-* ✅ `todo-comments`
-* ✅ `trouble`
-* ✅ `flash`
-
-## Tips saat baru mulai
-
-Karena kamu baru saja memasang `lazy.nvim`, saya menyarankan untuk **tidak langsung memasang semua plugin sekaligus**. Tambahkan satu per satu, lalu gunakan beberapa hari. Dengan begitu kamu akan memahami fungsi masing-masing plugin dan lebih mudah menemukan penyebab jika ada konflik konfigurasi.
-
-Kalau kamu ingin membangun Neovim sebagai editor utama untuk pemrograman, urutan yang sangat masuk akal adalah:
-
-1. `tokyonight.nvim` (tema)
-2. `nvim-treesitter`
-3. `lualine.nvim`
-4. `telescope.nvim`
-5. `neo-tree.nvim`
-6. `gitsigns.nvim`
-7. `Comment.nvim`
-8. `nvim-autopairs`
-9. `mason.nvim`
-10. `nvim-lspconfig`
-11. `nvim-cmp` + `LuaSnip`
-
-Dengan sebelas plugin tersebut, kamu sudah mendapatkan pengalaman yang sangat mendekati IDE modern seperti VS Code, tetapi tetap mempertahankan kecepatan dan fleksibilitas khas Neovim.
-

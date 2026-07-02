@@ -10,5 +10,6 @@ vim.opt.ignorecase = true
 vim.opt.smartcase = true
 vim.opt.termguicolors = true
 vim.opt.showmode = true
-vim.opt.clipboard = "unnamedplus"
+vim.opt.clipboard = "unnamed"
 vim.cmd.syntax "enable"
+vim.cmd.colorscheme "tokyonight-moon"

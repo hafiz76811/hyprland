@@ -27,14 +27,14 @@ window#waybar {
 	color: @colorw;
 }
 
-#workspaces button.empty {
-	color: @colord;
-}
-
 #custom-menu,
 #workspaces button.active {
 	background-color: @style;
 	border-radius: 15px;
+}
+
+#workspaces button.empty {
+	color: @colord;
 }
 
 #workspaces button.urgent {

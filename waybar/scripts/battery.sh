@@ -23,11 +23,13 @@ status_battery () {
   if [[ "$status" = "charging" ]]; then
     if [ $capacity -eq 100 ]; then
       status="full"
+    elif [ $capacity -gt 20 ]; then
+      status="charging"
     else
       status="default"
     fi
   fi
-  
+
   # return value: status
 }
 
