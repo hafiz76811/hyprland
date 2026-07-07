@@ -5,7 +5,7 @@ reboot = [ "systemctl", "reboot" ]
 poweroff = [ "systemctl", "poweroff" ]
 
 [background]
-path = "/usr/share/backgrounds/regreet.jpg"
+path = "/usr/share/backgrounds/wallpaper7.jpg"
 fit = "Cover"
 
 [GTK]
